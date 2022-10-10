@@ -97,7 +97,7 @@ Più nello specifico:
 
 ### Per ora è tutto
 
-Ora che avete seguito questa piccola guida introduttiva potete sbizzarrirvi e sfruttare a pien ole altre risorse della repo.
+Ora che avete seguito questa piccola guida introduttiva potete sbizzarrirvi e sfruttare a pieno le altre risorse della repo.
 Enjoy!
 
 ~CuSO
