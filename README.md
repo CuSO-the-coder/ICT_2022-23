@@ -34,7 +34,7 @@ Piu nello specifico:
 
 #### Auto close tag
 
->Chiude automaricamente i TAG aperti per evitare errori di scrittura.
+>Chiude automaticamente i TAG aperti per evitare errori di scrittura.
 
 ---
 
@@ -52,7 +52,7 @@ Piu nello specifico:
 
 #### Color Highlight
 
-> Evidenzia i codici colore per renderl ifacilmente riconoscibili.
+> Evidenzia i codici colore per renderli facilmente riconoscibili.
 
 ---
 
