@@ -1,0 +1,28 @@
+/* foglio di stile css, vengono qui descritte le caratteristeche stilistiche dellla pagina.
+    Si seleziona uno o più TAG html, e tra parentesi graffe "{ }" si specificano determinati parametri grafici, separati da un punto e virgola " ; "  
+*/
+
+
+body {                                                                              /* selezioniamo il TAG <body> e gli definiamo le seguenti caratteristiche grafiche: */              
+    background-image: url("assets/marble.jfif");         /* inseriamo l'immagine "marble.jfif" come sfondo della pagina html; il percorso relativo è quello indicatro tra virgolette, l'immagina si trova infatti nella cartella "assets" */
+    color: #00008b;                                                     /* impostiamo il colore del testo di tutta la pagina sul #00008b */
+    text-transform: uppercase;                                      /* impostiamo una trasformazione del testo tale per cui ogni letterà sarà in maiuscolo */
+}
+
+h1 {                                                                                /* selezioniamo il TAG <h1> e gli definiamo le seguenti caratteristiche grafiche: */
+    text-align: center ;                                                  /* allineamo il testo al suo interno al centro dello spazio occupato dal tag, questa definizione sarà più chiara con esercizi più complessi */
+}
+
+table {                                                                           /* selezioniamo il TAG <table> e gli definiamo le seguenti caratteristiche grafiche: */
+    background-color: #9cb9ef;                           /* mettiamo come colore di sfondo di tutta la tabella il #9cb9ef */
+    border: 3px solid #000000;                              /* impostiamo il bordo DELLA TABELLA (quindi solo quello esterno, non quello tra le celle) su 3px di spessore, stile "solid"(analizzeremo più avanti) ed il colore #000000 */ 
+    width: 100%;                                                           /* aggiungiamo poi il fatto che la tabella occupi più spazio orizzontale possibile, questo serve ad "allargare" le celle ed occupare l'intera larghezza della pagina */
+}
+
+td, th {                                                                        /* selezioniamo i TAG <td> e <th> e gli definiamo le seguenti caratteristiche grafiche: [NB: per selezionare due tag contemporaneamente basta separarli da una virgola] */
+    border: 1.5px solid #000000;                        /* impostiamo il bordo delle CELLE STANDARD e CELLE DI INTESTAZIONE su: spessore 1.5px, stile "solid" e colore #000000 */
+}
+
+th {                                                                            /* selezioniamo il TAG <th> e gli definiamo le seguenti caratteristiche grafiche: */
+    text-align: left;                                                   /* ci viene poi richiesto di spostare l'allinamento del testo delle celle d'intestazione, lo modifichiamo rendendolo "allineato al margine sinistro" */
+}

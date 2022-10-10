@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it"><!------------------------------------------------------------------------Indichiamo che il documento è in lingua italiana tramite [lang="it"]  --->
+
+    <head>
+        <meta charset="UTF-8"><!--------------------------------------------------------- Non necessari ai fini dell'esercizio -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!---------------------- Non necessari ai fini dell'esercizio -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!------- Non necessari ai fini dell'esercizio -->
+        <title>Tabella</title><!------------------------------------------------------------- Nome visualizzato della pagina html-->
+        <link rel="stylesheet" href="styles.css"><!---------------------------------------- Link al foglio di stile css -->
+    </head>
+
+    <body><!--------------------------------------------------------------------------- Inizio contenuto della pagina -->   
+        
+        <header><!---------------------------------------------------------------------- TAG che serve per indicare una sezione di intestazione della pagina html -->
+            <h1>pittori olandesi della prima metà del '600</h1> <!-------------------------- Titolazione di primo livello -->
+        </header>   
+
+        <main><!------------------------------------------------------------------------ TAG che serve per indicare la sezione principale della pagina html -->
+            <table><!---------------------------------------------------------------------- Creiamo la tabella --->
+                
+                <tr><!----------------------------------------------------------------------- <tr> indica la prima riga della tabella, che contiene le titolazioni della stessa --->
+                    <th>nome</th><!--------------------------------------------------------- <th> indica le titolazioni della tabella, crea dunque una cella con un testo in grassetto e centrato, di maggior importanza rispetto ad una normale cella--->
+                    <th>nascita/morte</th>
+                    <th>soggetti tipici</th>
+                    <th>influenze</th>
+                </tr><!----------------------------------------------------------------------- Chiudiamo la prima riga della tabella tramite </tr>--->
+                
+                <tr><!------------------------------------------------------------------------ Seconda riga della tabella, al suo interno mettiamo i primi valori dati--->
+                    <td>dirck van baburen</td><!---------------------------------------------- <td> indica una cella "standard" della tabella, il testo no navrà trasformazioni, al contrario di quanto visto con <th>--->
+                    <td>(1590-1624)</td>
+                    <td>religiosi</td>
+                    <td>caravaggio</td>
+                </tr><!------------------------------------------------------------------------ Chiudiamo anche la seconda riga--->
+                
+                <!--- ripetiamo, quanto visto per la seconda riga, altre 4 volte --->
+                <tr>
+                    <td>jan van goyen</td>
+                    <td>(1596-1624)</td>
+                    <td>paesaggi</td>
+                    <td>esaias van de velde</td>
+                </tr>
+                
+                <tr>
+                    <td>rembrant van rijn</td>
+                    <td>(1606-1669)</td>
+                    <td>ritratti</td>
+                    <td>lastman e lievensz</td>
+                </tr>
+                
+                <tr>
+                    <td>jan cornelisz verspronck</td>
+                    <td>(1597-1662)</td>
+                    <td>ritratti di bambini</td>
+                    <td>frans hals</td>
+                </tr>
+                
+                <tr>
+                    <td>simon de vlieger</td>
+                    <td>(1601-1653)</td>
+                    <td>paesaggi marini</td>
+                    <td>vroom</td>
+                </tr>
+
+            </table><!------------------------------------------------------------------------ Chiudiamo la tabella con il TAG </table> ---> 
+        </main><!-------------------------------------------------------------------------- Chiudiamo la sezione "main" tramite il TAG </main>--->
+
+    </body><!---------------------------------------------------------------------------- Fine del corpo della pagina, che chiudiamo tramite il TAG </body> --->
+</html><!------------------------------------------------------------------------------- Fine della pagina html--->
