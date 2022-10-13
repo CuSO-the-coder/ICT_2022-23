@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="it"> <!----------------------------------------------------------------------------------------- documento in html in lingua italiana-->
+    <head><!------------------------------------------------------------------------------------------------ metadati-->
+        <meta charset="UTF-8"><!---------------------------------------------------------------------------- non canonico-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!---------------------------------------- non canonico-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!------------------------- non canonico-->
+        <title>Tabelle annidate</title><!------------------------------------------------------------------- titolo della pagina-->
+        <link rel="stylesheet" href="styles.css"><!------------------------------------------------------- collegamento al foglio di stile CSS-->
+    </head><!------------------------------------------------------------------------------------------ fine dei  metadati-->
+    <body><!--------------------------------------------------------------------------------------- inizio del testo html visualizzabile-->
+        <main><!------------------------------------------------------------------------------------ TAG per definire la sezione principale di una pagina-->
+
+            <table><!--------------------------------------------------------------------------------- creiamo una tabella (servirà per contenere le 3 tabelle richieste)-->
+                <tr><!--------------------------------------------------------------------------------- aggiungiamo una riga-->
+                    <td><!------------------------------------------------------------------------------ primo elemento della tabella-->
+                        <table><!------------------------------------------------------------------------- creiamo una tabella (servirà per contenere la tabella A e le sue colonne laterali vuote)-->
+                            <tr><!------------------------------------------------------------------------- aggiungiamo una riga-->
+
+                                <td></td><!-----------------------------------------------------------------  prima colonna vuota della tabella-->
+
+                                <td id="t1"><!---------------------------------------------------------------  creiamo un secondo elemento (in cui ci sarà la tabella A), gli ho dato un identificativo per cambiare il suo stile nel CSS-->
+                                    
+                                    <table><!---------------------------------------------------------------- creiamo una tabella-->
+                                        <tr><!----------------------------------------------------------------- aggiungiamo una riga-->
+                                            <th><!-------------------------------------------------------------   inseriamo l'intestazione della tabella-->
+                                                <a href="articles/article1.html">intestazione a</a><!-------------  al posto del testo mettiamo un TAG <a> per inserire un collegamento al primo articolo-->
+                                            </th>
+                                        </tr>
+                                    </table><!------------------------------------------------------------- chiudiamo intestazione, riga e tabella-->
+
+                                    <table><!-------------------------------------------------------------creiamo una tabella (questa sarà la tabella 3x3)-->
+                                        <tr><!-------------------------------------------------------------- aggiungiamo una riga-->
+                                            <td><!------------------------------------------------------------  primo elemento-->
+                                                <a href="mailto:example@ex.com">aa1</a><!------------------- TAG <a> per inviare una mail ad un indirizzo standard-->
+                                            </td><!------------------------------------------------------------ chiudiamo l'elemento della tabella-->
+
+                                            <td><!------------------------------------------------------------ secondo elemento della tabella 3x3, ripetiamo come prima anche per il terzo-->
+                                                <a href="mailto:example@ex.com">aa2</a>
+                                            </td>
+
+                                            <td>
+                                                <a href="mailto:example@ex.com">aa3</a>
+                                            </td>
+                                        </tr><!------------------------------------------------------------- chiudiamo la prima riga-->
+                                        
+                                        <tr><!-------------------------------------------------------- creiamo la seconda riga-->
+                                            <td class="free1">free</td><!------------------------------- aggiungiamo un elemento con classe "free1", servirà per modificarne lo stile nel CSS, ripetiamo per 3 volte-->
+
+                                            <td class="free1">free</td>
+
+                                            <td class="free1">free</td>
+                                        </tr><!-------------------------------------------------------  chiudiamo la seconda riga-->
+                                        
+                                        <tr><!-------------------------------------------------------- creiamo la terza riga-->
+                                            <td><!----------------------------------------------------- aggiugniamo 3 elementi contenenti 3 TAG <a> che rimandan a siti web esterni-->
+                                                <a href="cuso.tk">sx</a>
+                                            </td>
+
+                                            <td>
+                                                <a href="https://www.instagram.com/_._cuso_._/">tx</a>
+                                            </td>
+
+                                            <td>
+                                                <a href="https://github.com/CuSO-the-coder">px</a>
+                                            </td>
+                                        </tr><!------------------------------------------------------ chiudiamo la terza riga-->
+                                    </table><!----------------------------------------------------- chiudiamo la tabella 3x3-->
+
+                                </td><!----------------------------------------------------------- chiudiamo l'elemento che conteneva la tabella 3x3-->
+
+                                <td></td><!------------------------------------------------------ aggiugniamo un eelmento vuoto che sarà la "colonna vuota" alla detsra della tabella-->
+
+                            </tr><!--------------------------------------------------------------  chiudiamo la riga-->
+                        </table><!------------------------------------------------------------- chiudiamo la tabella che conteneva quanto visto fino ad ora-->
+                    </td><!------------------------------------------------------------------- chiudiamo l'elemento della tabella contenitore-->
+
+                    <td><!-------------------------------------------------------------------- ripetiamo quanto visto fino ad ora per altre due volte modificando tutti gli 1 in 2 e 3-->
+                        <table>
+                            <tr>
+
+                                <td></td>
+
+                                <td id="t2">
+
+                                    <table >
+                                        <tr>
+                                            <th>
+                                                <a href="articles/article2.html">intestazione b</a>
+                                            </th>
+                                        </tr>
+                                    </table>
+
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="mailto:example@ex.com">bb1</a>
+                                            </td>
+                                            <td>
+                                                <a href="mailto:example@ex.com">bb2</a>
+                                            </td>
+                                            <td>
+                                                <a href="mailto:example@ex.com">bb3</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="free2">free</td>
+
+                                            <td class="free2">free</td>
+
+                                            <td class="free2">free</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>
+                                                <a href="cuso.tk">sx</a>
+                                            </td>
+
+                                            <td>
+                                                <a href="https://www.instagram.com/_._cuso_._/">tx</a>
+                                            </td>
+
+                                            <td>
+                                                <a href="https://github.com/CuSO-the-coder">px</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+
+                                <td></td>
+
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td>
+                        <table>
+                            <tr>
+
+                                <td></td>
+
+                                <td id="t3">
+
+                                    <table >
+                                        <tr>
+                                            <th>
+                                                <a href="articles/article3.html">intestazione c</a>
+                                            </th>
+                                        </tr>
+                                    </table>
+
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="mailto:example@ex.com">cc1</a>
+                                            </td>
+                                            <td>
+                                                <a href="mailto:example@ex.com">cc2</a>
+                                            </td>
+                                            <td>
+                                                <a href="mailto:example@ex.com">cc3</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="free3">free</td>
+
+                                            <td class="free3">free</td>
+
+                                            <td class="free3">free</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>
+                                                <a href="cuso.tk">sx</a>
+                                            </td>
+
+                                            <td>
+                                                <a href="https://www.instagram.com/_._cuso_._/">tx</a>
+                                            </td>
+
+                                            <td>
+                                                <a href="https://github.com/CuSO-the-coder">px</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+
+                                <td></td>
+
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr><!--------------------------------------------------------------------------------- chiudiamo poi la prima riga della tabella contenitore-->
+
+                <tr><!--------------------------------------------------------------------------------- creiamo la seconda riga della tabella contenitore-->
+                    <th>tab a</th><!-------------------------------------------------------------------- inseriamo 3 intestazioni contenenti i nomi delle tabelle-->
+                    <th>tab b</th>
+                    <th>tab c</th>
+                </tr><!--------------------------------------------------------------------------------- chiudiamo  la seconda riga della tabella contenitore-->
+
+            </table><!--------------------------------------------------------------------------------- chiudiamo la tabella contenitore-->
+
+        </main><!--------------------------------------------------------------------------------- chiudiamo la sezione principale della pagina-->
+    
+    </body><!--------------------------------------------------------------------------------- chiudiamo la parte di testo HTML visualizzabile-->
+</html><!--------------------------------------------------------------------------------- chiudiamo il documento HTML-->

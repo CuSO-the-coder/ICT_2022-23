@@ -1,0 +1,44 @@
+body {                                                                                  /*selezioniamo il TAG <body> e definiamo le seguenti caratteristiche*/
+    font-family: Helvetica;                                                    /*famiglia di font: HELVETICA */
+}
+
+table {                                                                                     /*selezioniamo il TAG <body> e definiamo le seguenti caratteristiche*/
+    border: 1px solid #000000;                                         /* bordo di 1px, stile solido e colore #000000 */
+    text-transform: uppercase;                                              /* tranformazione del testo: "maiuscolo",tutte le lettere dentro questo TAG saranno maiuscole */
+    width:100% ;                                                                    /* gli diciamo di occupare il massimo spazio orizzontale disponibile */
+}
+
+td, th {                                                                                /*selezioniamo il TAG <body> e definiamo le seguenti caratteristiche*/
+    border: 0.5px solid #000000;                                /* bordo di 0.5px, stile solido e colore #000000 */
+}
+
+th {                                                                                    /*selezioniamo il TAG <body> e definiamo le seguenti caratteristiche*/
+    text-transform: capitalize;                                         /* transofrmazione del testo:"capitalizzazione", tutte le prime lettere delle parole saranno maiuscole */
+}
+
+#t1 {                                                                                   /*selezioniamo  l' ID #t1 e definiamo le seguenti caratteristiche (ripeti x3)*/
+    background-color: #ff7f50b6;                              /* colore di sfondo #ff7f50b6 */                                
+}
+
+#t2 {
+    background-color: #ee82eea5;
+}
+#t3 {
+    background-color: #839a579c;
+}
+
+.free1, .free2, .free3 {                                        /*selezioniamo le classi free1,free2,free3 e definiamo le seguenti caratteristiche*/
+    font-weight: bold;                                          /* dimensione del testo: grassetto*/
+}
+
+.free1 {                                                            /*selezioniamo la classe free1 e definiamo le seguenti caratteristiche (ripeti x3)*/
+    color: #1a1e35;                                    /* colore del testo:#1a1e35  */
+}
+
+.free2 {
+    color: #e80000;
+}
+
+.free3 {
+    color: #9a42ff;
+}
