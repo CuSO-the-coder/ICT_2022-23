@@ -1,0 +1,20 @@
+body {
+    background-color: #adfa9a;
+    color: #000080;
+
+}
+header{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+h1{
+    text-transform: capitalize ;
+    font-family: Comic Sans MS;
+}
+
+#ritratto{
+    width: 176px;
+    height: 248px;
+}

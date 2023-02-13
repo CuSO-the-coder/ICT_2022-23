@@ -1,6 +1,6 @@
-# Tabelle annidate
+# Tabelle complesse
 
-In questo esercizio impariamo a creare una tabella standard e modificare qualche parametro visivo della pagina.
+In questo esercizio impariamo a sfruttare alcuni attributi delle tabelle e sfruttate hyperlinks per la navigazione delle pagine.
 
 ## Consegna
 

@@ -1,0 +1,13 @@
+h1{
+    color: #2424a5;
+    text-transform: capitalize;
+}
+
+a{
+    text-transform: uppercase;
+    margin-inline: 40px;
+}
+
+img{
+    max-width: 640px;
+}

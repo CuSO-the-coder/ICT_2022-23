@@ -1,0 +1,47 @@
+#home {
+    background-image:url(assets/background.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-content:space-between;
+    flex-direction: row;
+    background-color: #4682b4;border-radius: 3vw;
+}
+h1{
+    margin-inline: auto;
+    text-transform: capitalize;
+}
+#onme{
+    color: #44ff00;
+}
+h1>a{
+    color: #f0f8ff;
+    text-decoration: none;
+}
+table{
+    border: #4682b4 solid 3px;
+width: 100%;
+}
+td,th{
+    border: #b47246 solid 1px;
+width: fit-content;
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure>img{
+    width: 30vw;
+}
+
+.cover{
+    width: 10vw;
+}
